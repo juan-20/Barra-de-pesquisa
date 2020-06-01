@@ -1,0 +1,28 @@
+
+	*{
+		font-family: "Helvetica";
+		padding: 0;
+		margin: 0;
+		font-size: 14;
+		border-radius: 15px;
+		outline: none;
+	}
+
+    /* margem */
+	.lista{ margin: 10px }
+
+    /* deixa o excrito em baixo da imagem */
+	.lista img{ display: block; margin: 5px 0px }
+
+    /* organiza o li um do lado do outro */
+	.lista li{
+		margin: 0px;
+		display: inline-block;
+		padding: 10px;
+	}
+
+    /* tamanho da barra de pesquisa */
+	.pesquisa{
+		padding: 10px;
+		margin: 10px;
+	}
